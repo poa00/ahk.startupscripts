@@ -1,2 +1,1 @@
-exec := "%SOFTWARE%\Everything\Everything.exe -s"
-Run, % A_ComSpec " /C " exec " """ A_Args[1] """", , Hide
+Run, % "C:\Program Files\Everything\Everything.exe -s " . "" A_Args[1] ""
